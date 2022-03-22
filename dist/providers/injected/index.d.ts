@@ -13,4 +13,12 @@ export declare const STATUS: IProviderInfo;
 export declare const TOKENARY: IProviderInfo;
 export declare const FRAMEINJECTED: IProviderInfo;
 export declare const LIQUALITY: IProviderInfo;
+export declare const BOLTX: IProviderInfo;
+export declare const MATHWALLET: IProviderInfo;
+export declare const RWALLET: IProviderInfo;
+export declare const XDEFI: IProviderInfo;
+export declare const BITPIE: IProviderInfo;
+export declare const CELOINJECTED: IProviderInfo;
+export declare const TALLYINJECTED: IProviderInfo;
+export declare const PORTAL: IProviderInfo;
 //# sourceMappingURL=index.d.ts.map
