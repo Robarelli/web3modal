@@ -28,6 +28,22 @@ import OperaLogo from "../logos/opera.svg";
 import FrameLogo from "../logos/frame.svg";
 // @ts-ignore
 import LiqualityLogo from "../logos/liquality.png";
+// @ts-ignore
+import BoltXLogo from "../logos/boltx.svg";
+// @ts-ignore
+import MathWalletLogo from "../logos/mathwallet.png";
+// @ts-ignore
+import RWalletLogo from "../logos/rwallet.svg";
+// @ts-ignore
+import BitpieLogo from "../logos/bitpie.svg";
+// @ts-ignore
+import XDEFILogo from "../logos/xdefi.svg";
+// @ts-ignore
+import CeloExtensionWalletLogo from "../logos/celoExtensionWallet.svg";
+// @ts-ignore
+import TallyLogo from "../logos/tally.svg";
+// @ts-ignore
+import PortalLogo from "../logos/portal.svg";
 
 export const FALLBACK: IProviderInfo = {
   id: "injected",
@@ -139,4 +155,68 @@ export const LIQUALITY: IProviderInfo = {
   logo: LiqualityLogo,
   type: "injected",
   check: "isLiquality"
+};
+
+export const BOLTX: IProviderInfo = {
+  id: "boltx",
+  name: "Bolt-X",
+  logo: BoltXLogo,
+  type: "injected",
+  check: "isBoltX",
+};
+
+export const MATHWALLET: IProviderInfo = {
+  id: "injected",
+  name: "Math Wallet",
+  logo: MathWalletLogo,
+  type: "injected",
+  check: "isMathWallet"
+};
+
+export const RWALLET: IProviderInfo = {
+  id: "injected",
+  name: "rWallet",
+  logo: RWalletLogo,
+  type: "injected",
+  check: "isRWallet"
+};
+
+export const XDEFI: IProviderInfo = {
+  id: "injected",
+  name: "XDEFI",
+  logo: XDEFILogo,
+  type: "injected",
+  check: "__XDEFI"
+};
+
+export const BITPIE: IProviderInfo = {
+  id: "injected",
+  name: "Bitpie",
+  logo: BitpieLogo,
+  type: "injected",
+  check: "isBitpie"
+};
+
+export const CELOINJECTED: IProviderInfo = {
+  id: "injected",
+  name: "Celo extension wallet",
+  logo: CeloExtensionWalletLogo,
+  type: "injected",
+  check: "isCelo"
+};
+
+export const TALLYINJECTED: IProviderInfo = {
+  id: "injected",
+  name: "Tally",
+  logo: TallyLogo,
+  type: "injected",
+  check: "isTally"
+};
+
+export const PORTAL: IProviderInfo = {
+  id: "injected",
+  name: "Ripio Portal",
+  logo: PortalLogo,
+  type: "injected",
+  check: "isPortal"
 };
